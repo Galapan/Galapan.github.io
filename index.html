@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página personal</title>
+    <style>
+        /*
+            Estructura de reglas CSS:
+            selector {
+                propiedad: valor;
+            }
+        */
+        /*Selector universal*/
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /*Selector etiqueta*/
+        header{
+            background-color: #616DB7;
+            color : white;
+            text-align: center;
+            padding: 20px;
+        }
+        /*Selector clase .clase*/
+        .card {
+            background-color: #FEDB5C;
+            padding: 20px;
+        }
+        /*Selector ID #id*/
+        #btn{
+            border: none;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
 </head>
 <body>
     <header>
         <h1>Bienvenido a mi página personal</h1>
         <img 
-        src="Yamada.jpg" 
-        width="50%" 
-        alt="Mi vieja w">
-        <h2>Soy Bastian Alessandro AKA Galapan - Frontend developer</h2>
-        <p>Eric es un pendejo GGs Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea a ad dolorem, iusto corrupti quam nostrum tenetur beatae odio officia facilis dolorum modi hic labore incidunt quibusdam deserunt itaque. Dolores.</p>
+            src="Yamada.jpg" 
+            width="50%" 
+            alt="Mi vieja w">
+        <h2 ">Soy Bastian Alessandro AKA Galapan - Frontend developer</h2>
+        <p ">Eric es un pendejo GGs Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea a ad dolorem, iusto corrupti quam nostrum tenetur beatae odio officia facilis dolorum modi hic labore incidunt quibusdam deserunt itaque. Dolores.</p>
     </header>
     <main>
-        <section>        
+        <section class="card">        
             <hr>
             <h3>Algo sobre mi</h3>
             <ul>
@@ -47,7 +81,7 @@
         <hr>
         <p>Visita mi <a href="https://www.instagram.com/un_galapan/">instagram</a></p>
         <input type="text" placeholder="Email">
-        <button>Suscríbete!</button>
+        <button id="btn">Suscríbete!</button>
         <input type="submit" value="Enviar">
     </footer>
 </body>
