@@ -1,0 +1,111 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f5f6f75d;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url('./quesocubano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+header div {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(214, 214, 214, 0.78) 0%, rgba(133, 133, 133, 0.4) 50%, rgba(66, 66, 66, 0.5) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+section {
+    box-shadow: 0 12px 30px rgba(2,6,23,0.18), 0 4px 10px rgba(2,6,23,0.06);
+    padding: 20px;
+    margin: 20px;   
+    width: 300px;
+    border-radius: 12px;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section li {
+    background: #7c7c7caf;
+    color: white;            
+    padding: 10px 15px;        
+    margin-bottom: 10px;      
+    border-radius: 10px;   
+}
+
+footer {
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    box-shadow: 0 12px 30px rgba(2,6,23,0.18), 0 4px 10px rgba(2,6,23,0.06);
+}
+footer a {
+    text-decoration: underline;
+}
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+footer input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+}
+footer button {
+    background: #7c7c7caf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
